@@ -27,12 +27,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/uploads" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Desktop\lanAssistant\static\uploads" />
       <recent name="C:\Users\windows\Desktop\lanAssistant\static\images" />
       <recent name="C:\Users\windows\Desktop\lanAssistant" />
     </key>
@@ -47,11 +48,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609981665131</updated>
-      <workItem from="1609981671251" duration="791000" />
+      <workItem from="1609981671251" duration="2294000" />
+      <workItem from="1609984893311" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1087" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609984593116">
+      <screen x="0" y="39" width="1920" height="1041" />
+    </state>
+    <state x="1087" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.39.1920.1041@0.39.1920.1041" timestamp="1609984593116" />
   </component>
 </project>

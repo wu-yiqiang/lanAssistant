@@ -27,12 +27,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/uploads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Desktop\lanAssistant\fonts" />
       <recent name="C:\Users\windows\Desktop\lanAssistant\static\uploads" />
       <recent name="C:\Users\windows\Desktop\lanAssistant\static\images" />
       <recent name="C:\Users\windows\Desktop\lanAssistant" />
@@ -53,7 +54,8 @@
       <workItem from="1609989595845" duration="18000" />
       <workItem from="1609999243805" duration="1715000" />
       <workItem from="1610007456239" duration="7000" />
-      <workItem from="1610015432804" duration="4107000" />
+      <workItem from="1610015432804" duration="7419000" />
+      <workItem from="1610089560323" duration="4322000" />
     </task>
     <servers />
   </component>

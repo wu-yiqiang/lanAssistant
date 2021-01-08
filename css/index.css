@@ -34,19 +34,25 @@ html,body {
     line-height: 60px;
     font-size: 12px;
     text-align: center;
+    color: #ffffff;
 }
 .headers ul li:nth-child(1){
-    width: 160px;
+    width: 100px;
 }
 .headers ul li > input {
     width: 200px;
     height: 30px;
     outline: none;
+    border:1px solid #5D3F73;
     border-radius: 5px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
+.headers ul li:nth-child(7){
+    margin-left:40px;
+}
+
 .headers ul li:nth-child(8){
-    margin-left: 140px;
+    margin-left: 160px;
 }
 
 .headers ul li img {
@@ -56,17 +62,29 @@ html,body {
     vertical-align: middle;
 }
 
-.leftbar{
+.rightbar{
     float: left;
     width: 225px;
     height: 90%;
     background-color: crimson;
-    border-radius: 0 0 0 5px;
+    border-radius: 0 0 5px 0;
 }
-.rightframe {
+.rightbar ul li{
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid black;
+
+}
+
+.rightbar ul li:nth-child(1){
+    height: 63px;
+    border-bottom:1px solid black;
+}
+
+.leftframe {
     float: left;
     width: 75%;
     height: 90%;
     background-color: chocolate;
-    border-radius: 0 0 5px 0;
+    border-radius: 0 0 0 5px;
 }

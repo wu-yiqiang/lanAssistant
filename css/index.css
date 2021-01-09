@@ -52,8 +52,23 @@ html,body {
 }
 
 .headers ul li:nth-child(8){
-    margin-left: 160px;
+    position: relative;
+    margin: 0 20px 0 160px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
 }
+
+.headers ul li:nth-child(8) .notice {
+    position: absolute;
+    top:30px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+
 
 .headers ul li img {
     width: 40px;

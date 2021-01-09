@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "iconfont logo";
+  src: url('https://at.alicdn.com/t/font_985780_km7mi63cihi.eot?t=1545807318834');
+  src: url('https://at.alicdn.com/t/font_985780_km7mi63cihi.eot?t=1545807318834#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_985780_km7mi63cihi.woff?t=1545807318834') format('woff'),
+    url('https://at.alicdn.com/t/font_985780_km7mi63cihi.ttf?t=1545807318834') format('truetype'),
+    url('https://at.alicdn.com/t/font_985780_km7mi63cihi.svg?t=1545807318834#iconfont') format('svg');
+}
+
 html,body {
     position: relative;
     width: 100%;
@@ -19,7 +28,7 @@ html,body {
 .headers {
     width: 100%;
     height: 60px;
-    background-color: #5D3F73;
+    background-color: #376297;
     border-radius: 5px 5px 0 0;
 }
 .headers ul {
@@ -39,21 +48,32 @@ html,body {
 .headers ul li:nth-child(1){
     width: 100px;
 }
-.headers ul li > input {
+.headers ul li:nth-of-type(7){
+    position: relative;
+}
+.icon-soushuo{
+    position: absolute;
+    color: black;
+    left: 4px;
+    top: 0;
+}
+
+.headers ul li  input {
     width: 200px;
     height: 30px;
     outline: none;
     border:1px solid #5D3F73;
     border-radius: 5px;
-    padding-left: 30px;
+    padding-left: 25px;
 }
+
 .headers ul li:nth-child(7){
     margin-left:40px;
 }
 
 .headers ul li:nth-child(8){
     position: relative;
-    margin: 0 20px 0 160px;
+    margin: 0 40px 0 160px;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -62,13 +82,17 @@ html,body {
 
 .headers ul li:nth-child(8) .notice {
     position: absolute;
-    top:30px;
-    right: 0;
-    width: 20px;
-    height: 20px;
-    color: red;
+    top:15px;
+    right: -14px;
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    background-color: red;
+    border-radius: 11px;
 }
-
+.icon-tongzhi::before{
+    font-size: 28px !important;
+}
 
 .headers ul li img {
     width: 40px;
@@ -100,6 +124,18 @@ html,body {
     float: left;
     width: 75%;
     height: 90%;
-    background-color: chocolate;
+   /* background-color: chocolate;*/
+    border-radius: 0 0 0 5px;
+}
+
+.leftframe .display_info{
+    width: 100%;
+    height: 82%;
+    background-color: cornflowerblue;
+}
+.leftframe .send-info {
+    width: 100%;
+    height: 18%;
+    background-color: darkblue;
     border-radius: 0 0 0 5px;
 }

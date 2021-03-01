@@ -36,3 +36,7 @@ func (this *User) ListenMessage() {
 		this.conn.Write([]byte(msg + "\n"))
 	}
 }
+
+func (this *User) OpenFiles() {
+
+}
